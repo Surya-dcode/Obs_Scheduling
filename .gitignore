@@ -1,0 +1,14 @@
+# Ignore virtual environment folder
+observatory_env/
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+
+# Ignore database files if using SQLite
+*.sqlite3
+
+# Ignore system and editor-specific files
+.DS_Store  # MacOS
+Thumbs.db  # Windows
+.vscode/   # VS Code settings
