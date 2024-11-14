@@ -14,3 +14,6 @@ def index():
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
+
+print(f"Secret Key in use: {app.config['SECRET_KEY']}")
+
